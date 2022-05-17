@@ -1,0 +1,27 @@
+.containerLogo {
+  width: 140px;
+
+  div,
+  span {
+    position: unset !important;
+  }
+
+  .logo {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .containerLogo {
+    width: 160px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerLogo {
+    width: 260px;
+  }
+}
