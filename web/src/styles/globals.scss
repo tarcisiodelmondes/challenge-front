@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -14,13 +14,18 @@ a {
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+}
 
-// Colors
+// COLORS
 
-$black: #000000;
-$white: #ffffff;
+:root {
+  --black: #000000;
+  --white: #ffffff;
 
-$neutral-200: #555555;
-$neutral-300: #2f2f2f;
+  --neutral-200: #555555;
+  --neutral-300: #2f2f2f;
 
-$green: #00bc0e;
+  --green: #00bc0e;
+}
