@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+
+  li > a {
+    transition: color 300ms;
+    font-size: 1rem;
+    color: var(--black);
+  }
+
+  li > a:hover {
+    color: var(--green);
+  }
+
+  li:not(:first-child) {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+
+    li > a {
+      font-size: 0.875rem;
+      color: var(--black);
+    }
+
+    li:not(:first-child) {
+      margin: 0 0 0 2rem;
+    }
+  }
+}
