@@ -1,0 +1,14 @@
+{
+  "name": "challenge-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tarcisiodelmondes/challenge-front.git",
+  "author": "Tarcisio Delmondes <tarcisiodelmondes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "json-server ./products.json --port 3333"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
