@@ -43,6 +43,8 @@ Desafio E-Plus Front-end
 - Utilizei o axios para consumir o servidor fake e montar o layout
   do carrinho de compras
 - Utilizei a fonte Montserrat e os ícones do Materia Design
+- Calculei o preço total dos produtos do carrinho
+- Formatei o preço total dos produtos para moeda BRL e mostrei os dados em tela
 
 ## :rocket: Tecnologias
 
@@ -50,7 +52,7 @@ As seguintes ferramentas foram utilizadas neste projeto:
 
 - [Sass](https://sass-lang.com/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - Axios
 - Json-server
