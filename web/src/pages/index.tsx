@@ -1,12 +1,12 @@
-import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
+
+import { Header } from "../components/Header";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
+        <title>Agência e-Plus | Home</title>
         <meta
           name="description"
           content={`Trabalhamos com a Agência e-Plus há mais
@@ -18,7 +18,7 @@ export default function Home() {
         />
       </Head>
 
-      <h1>Hello</h1>
-    </div>
+      <Header />
+    </>
   );
 }
