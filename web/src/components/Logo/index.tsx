@@ -10,6 +10,7 @@ export function Logo() {
         alt="Logo da Agência e-Plus"
         layout="fill"
         quality={100}
+        priority
       />
     </div>
   );
